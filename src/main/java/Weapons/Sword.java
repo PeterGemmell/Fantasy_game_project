@@ -10,6 +10,7 @@ public class Sword extends Weapon implements IWeapon {
         super(name);
     }
 
+
     public void attack(Enemy enemy) {
         enemy.takeDamage(50);
     }

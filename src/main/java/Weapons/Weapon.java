@@ -1,5 +1,7 @@
 package Weapons;
 
+import Enemy.Enemy;
+
 public abstract class Weapon {
 
     private String name;
@@ -15,4 +17,5 @@ public abstract class Weapon {
     public void setName(String name) {
         this.name = name;
     }
+
 }
